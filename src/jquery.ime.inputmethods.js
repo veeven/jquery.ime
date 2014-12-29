@@ -476,6 +476,10 @@
 			name: 'లిప్యంతరీకరణ',
 			source: 'rules/te/te-transliteration.js'
 		},
+		'te-varitype': {
+			name: 'వేరిటైప్ (లతదవ)',
+			source: 'rules/te/te-varitype.js'
+		},
 		'pa-inscript': {
 			name: 'ਇਨਸ੍ਕ੍ਰਿਪ੍ਟ',
 			source: 'rules/pa/pa-inscript.js'
@@ -889,7 +893,7 @@
 		},
 		'te': {
 			autonym: 'తెలుగు',
-			inputmethods: [ 'te-transliteration', 'te-inscript', 'te-inscript2' ]
+			inputmethods: [ 'te-transliteration', 'te-inscript', 'te-inscript2', 'te-varitype' ]
 		},
 		'th': {
 			autonym: 'ไทย',
